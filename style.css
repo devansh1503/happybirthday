@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+.maindiv h1{
+    position: absolute;
+    top: 46%;
+    left: 45%;
+    z-index: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#gift{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 20%;
+    z-index: 900;
+}
+#gift:hover{
+    transform: translateY(-21px);
+}
+
+.bday{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: rgb(235, 43, 75);
+    font-size: 70px;
+    z-index: 1000;
+}
+#party{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    z-index: 50;
+}
+#party2{
+    position: absolute;
+    top: 0;
+    right: 50;
+    width: 200px;
+    z-index: 50;
+}
+#party3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    z-index: 50;
+}
+#party4{
+    position: absolute;
+    bottom: 0;
+    right: 50;
+    width: 200px;
+    z-index: 50;
+}
+#party5{
+    position: absolute;
+    top: 35%;
+    right: 50;
+    width: 200px;
+    z-index: 50;
+}
+#party6{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 200px;
+    z-index: 50;
+}
+.slidesec{
+    height: 40vh;
+    transform: translateX(120px);
+}
+.slidesec img{
+    width: 100%;
+    border-radius: 25px;
+    border: 14px solid rgb(235, 43, 75);
+}
+
+.hide{
+    display: none;
+}
